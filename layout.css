@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .top-right {
+      background-color: #234A66;
+      padding-right: 100px;
+  }
+  
+  .top-right .register button {
+      text-transform: uppercase;
+      border: none;
+      color: white;
+      /* color: red; */
+      padding: 10px 10px;
+      font-weight: bold;
+      font-size: 12px;
+      cursor: pointer;
+      background-color: transparent;
+      transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .top-right button:hover {
+      color: white;
+  }
+  
+  .header-top {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 0px;
+      /* height: 310%; */
+  }
+  
+  .right-tags {
+      display: flex;
+      width: 49%;
+      height: 10vh;
+      justify-content: space-around;
+      align-items: top;
+      font-size: 18px;
+    
+  }
+  
+  .right-tags p {
+      text-transform: uppercase;
+      color: blue;
+      font-size: small;
+  }
+  
+  .logo {
+      /* padding: 50px 70px; */
+      width: 200px;
+      cursor: pointer;
+  }
+  
+  .hidden {
+      display: none;
+  }
+  
+  .login {
+      padding: 9px 25px;
+      border-radius: 7px;
+      border: 2px #2c97ea solid;
+      font-weight: bold;
+      font-size: 12px;
+      cursor: pointer;
+      background-color: transparent;
+      transition: background-color 0.7s ease, transform 0.3s ease;
+      /* transform: translateY(5px); */
+  }
+  
+  .login .icon {
+      color: #2c97ea;
+  }
+  
+  .icon {
+      cursor: pointer;
+  }
+  
+  .btn-content {
+      display: flex;
+      align-items: center;
+      width: 110%;
+  }
+  
+  .login:hover {
+      background-color: #2c97ea;
+      color: white;
+      transform: translateY(0);
+  }
+  
+  .login:hover .icon {
+      background-color: #2c97ea;
+      color: white;
+      /* transform: translateY(-5px); */
+  }
+  
+  span{
+    color: white;
+  }
+  marquee{
+    color: orange;
+  }
+  
+  .justify-content-end {
+      justify-content: end;
+  }
+  
+  .justify-content-space-around {
+      justify-content: space-around;
+  }
+  
+  .justify-content-center {
+      justify-content: center;
+  }
+  
+  .flex {
+      display: flex;
+  }
+  
+  .pt-1 {
+      padding-top: 0px;
+  }
+  
+  .pt-2 {
+      padding-top: 5px;
+  }
+  
+  .routes {
+      display: flex;
+      justify-content: space-around;
+      background-color: #0961F9;
+      color: white;
+  }
+  
+  .nav-links {
+  
+      padding: 20px 0;
+  
+      gap: 10px;
+    background-color: #234A66;
+  
+  }
+  
+  .search {
+  
+      display: flex;
+  
+      align-items: center;
+  
+  }
+  
+  .routes a {
+  
+      text-decoration: none;
+  
+      font-size: 20px;
+  
+      color: white;
+  
+      text-transform: uppercase;
+  
+      font-weight: bold;
+  
+      transition: color 0.3s ease, transform 0.3s ease; /* Added transition */
+  
+  }
+  
+  .routes a:hover {
+  
+      color: #ffcc00; /* Color change on hover */
+  
+      transform: scale(1.1); /* Slight zoom on hover */
+  
+  }
+  
+  /* Bouncing animation for the menu icon */
+  
+  @keyframes bounce {
+  
+      0%, 20%, 50%, 80%, 100% {
+  
+          transform: translateY(0); /* At the start and end, it’s in the original position */
+  
+      }
+  
+      40% {
+  
+          transform: translateY(-15px); /* Moves up */
+  
+      }
+  
+      60% {
+  
+          transform: translateY(-7px); /* Slightly comes down */
+  
+      }
+  
+  }
+  
+  /* Apply the bounce animation to the menu icon */
+  
+  .header-top .icon {
+  
+      animation: bounce 2s infinite;
+  
+      transition: transform 0.3s ease; /* Added transition for hover effect */
+  
+  }
+  
+  
+  /* Apply the bounce animation to the menu icon */
+  .header-top .icon {
+      animation: bounce 2s infinite;
+      transition: transform 0.3s ease; /* Added transition for hover effect */
+  }
+  
+  /* Hover effect for the menu icon */
+  .header-top .icon:hover {
+      transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  .institute-section {
+      padding-top: 50px;
+  }
+  
+  .success-section {
+      padding-top: 60px;
+  }
+  
+  .success-section .grid-container .grid-item {
+      padding-right: 30px;
+  }
+  
+  .success-section .grid-container h1 {
+      font-size: 30px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+  }
+  
+  .success-section .grid-container .right-grid-item {
+      padding-right: 30px;
+  }
+  
+  .success-section .grid-container .grid-item p {
+      width: 100%;
+      padding-bottom: 50px;
+      font-size: 16px;
+  }
+  
+  .success-section .grid-container .right-grid-item .employment-rate-green {
+      width: 80%;
+      color: white;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: green;
+      font-size: 20px;
+  }
+  
+  .success-section .grid-container .right-grid-item .employment-rate-red {
+      width: 80%;
+      color: white;
+      margin-top: 18px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: red;
+      font-size: 20px;
+  }
+  
+  .success-section .grid-container .right-grid-item .employment-rate-blue {
+      width: 80%;
+      color: white;
+      margin-top: 18px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: blue;
+      font-size: 20px;
+  }
+  
+  .success-section .grid-container .right-grid-item .employment-rate-purple {
+      width: 80%;
+      color: white;
+      margin-top: 18px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: purple;
+      font-size: 20px;
+  }
+  
+  .grid-container {
+      display: grid;
+      /* column-gap: 50px; */
+      grid-template-columns: 40% 40%;
+      padding-left: 10%;
+      background-color: #ebeef5;
+      /* background-color: #2196F3; */
+      /* padding: 10px; */
+  }
+  
+  .footer .container {
+      background-color: #234A66;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      color: white;
+      margin-top: 100px;
+  }
+  
+  .footer a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 1200px){
+      body {
+          .xl-hidden {
+              display: none;
+          }
+  
+          .logo {
+              /* padding: 50px 70px; */
+              width: 400px;
+          }
+          
+          .right-tags {
+              display: block;
+              height: 18vh;
+          }
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      body {
+          .hidden {
+              display: none;
+          }
+  
+          .header-top {
+              display: flex;
+              justify-content: space-between;
+              padding: 0px 0px;
+          }
+          
+          .right-tags {
+              display: block;
+              height: fit-content;
+              width: fit-content;
+          }
+  
+          .logo {
+              /* padding: 50px 70px; */
+              width: 400px;
+          }
+  
+          .lg-hidden {
+              display: none;
+          }
+  
+          .routes {
+              display: flex;
+              justify-content: end;
+              background-color: #0961F9;
+              color: white;
+          }
+  
+          .lg-block {
+              display: block;
+          }
+  
+          .icon {
+              display: flex;
+              align-items: center;
+          }
+      }
+    }
+  
+    @media only screen and (max-width: 576px) {
+      body {
+          .logo {
+              /* padding: 50px 70px; */
+              width: 200px;
+          }
+      }
+    }
+  
+  /* colors */
+  
+  /* .green {
+      border: 1px solid green;
+  }
+  
+  .blue {
+      border: 1px solid blue;
+  }
+  
+  .red {
+      border: 1px solid red;
+  } */
